@@ -1,14 +1,18 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Turma;
+use App\Aluno;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class IscoolController extends Controller
 {
-    public function index(){
-        $turmas = Turma::all();
-        return view('turmas',['turmas'=>$turmas]);
+    public function index() {
+        $alunos = Aluno::all();
+        return view('iscool.index', ['alunos'=>$alunos]);
+    }
+
+    public function create() {
+        return view('iscool.create');
     }
 }
