@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #329797;
+                background: linear-gradient(to right, #08bcd9 , #0a3d4d);
                 color: #fff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -46,7 +46,13 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 100px;
+                padding-bottom: 200px;
+            }
+
+            .subtitle {
+                font-size: 25px;
+                padding-bottom: 100px;
             }
 
             .links > a {
@@ -69,11 +75,14 @@
 
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="subtitle m-b-md">
+                    O melhor jeito de administrar sua escola
+                </div>
+                <div class="title">
                     Is cool
                 </div>
 
-                <div class="links">
+                <div class="links m-b-md">
                     <a href="iscool">Alunos</a>
                     <a href="">Professores</a>
                     <a href="">Turmas</a>
