@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('iscool', 'IscoolController@index');
-Route::get('iscool/create', 'IscoolCOntroller@create');
+Route::get('iscool/create', 'IscoolController@create');
