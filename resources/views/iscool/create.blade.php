@@ -21,6 +21,9 @@
             {!! Form::label('sexo', 'Sexo: ') !!}
             {!! Form::select('sexo',array('Masculino' =>'masculino', 'Feminino' =>'feminino'),'Masculino',['class'=>'form-control']) !!}
         </div>
+        <div class="form-group">
+            {!! Form::submit('Criar hábito',['class'=>'btn btn-primary']) !!}
+        </div>
 
         {!! Form::close() !!}
     </div>
